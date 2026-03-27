@@ -1,0 +1,22 @@
+spring:
+  liquibase:
+    enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5435/library
+    username: postgres
+    password: postgres
+
+server:
+  port: 8081
+
+logging:
+  charset:
+    console: UTF-8
+    file: UTF-8
