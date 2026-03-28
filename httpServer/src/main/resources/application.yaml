@@ -9,7 +9,7 @@ spring:
     show-sql: true
 
   datasource:
-    url: jdbc:postgresql://localhost:5435/library
+    url: jdbc:postgresql://postgresql:5432/library
     username: postgres
     password: postgres
 
